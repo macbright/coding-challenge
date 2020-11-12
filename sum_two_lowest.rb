@@ -3,6 +3,5 @@
 # For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7.
 
 def sum_two_smallest_numbers(numbers)
-  result = numbers.sort()
-  result[0] + result[1]
+  numbers.sort[0..1].sum
 end
